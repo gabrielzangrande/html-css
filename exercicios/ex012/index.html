@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor</p>
+    <!-- Do mesmo jeito do áudio, o vídeo poderia ter sido colocado assim:
+    <video src="midia/videocarros2.mp4" width="500" controls></video> 
+    Mas temos um jeito melhor de se fazer: -->
+    <video width="500" poster="images/pexels-alexgtacar-1592384.jpg" controls autoplay loop>
+        <source src="midia/videocarros2.mp4" type="video/mp4">
+        <!-- Aqui o certo era colocar outros tipos de video, como por exemplo: .m4v, .webm, .ogv, assim, caso o client esteja usando um navegador diferente, se o mp4 não for compátivel, ele vai testando os outros tipos de arquivo -->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+<!-- VÍDEO COPIADO DO YOUTUBE -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/39ybaZiwluc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

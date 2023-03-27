@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <!-- Deixa as letras monoespaçadas, ou seja, todas as letras ocupam o mesmo espaço na tela -->
+    <h2>Melhorando a formatação de um code</h2>
+    <code>
+        num = inst(input('Digite o numero'))
+        if num % 2 == 0:
+            print(f'0 número {num} é PAR')
+
+        else:
+        print(f'0 número {num} é ÍMPAR')
+        print('Fim do programa')
+    </code>
+    <!-- Este exemplo é de um código em PYTHON, porém, se você reparar no navegador, ele não respeitou as tabulações escritas no código, para isso, devemos utilizar a tag <pre>.
+        Veja no exemplo abaixo: -->
+    <h3>Como ficaria utilizando a tag PRE</h3>
+        <pre>
+            <code>
+    num = inst(input('Digite o numero'))
+    if num % 2 == 0:
+        print(f'0 número {num} é PAR')
+    else:
+        print(f'0 número {num} é ÍMPAR')
+    print('Fim do programa')
+            </code>
+        </pre>
+        <h2>Citações simples</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+        <!-- Por se uma citação, utilizar a tag <q> ao invés de apenas " ", por questão de semântica -->
+        <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+        <blockquote>
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+        <!-- Na bloque quote, você pode adicionar um parâmetro também para citar um link -->
+        <h3>Exemplo 2:</h3>
+        <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+        <h2>Abreviações</h2>
+        <!-- O comando abbr serve para quando o CLIENT passa o mouse em cima da palavra, ele abre uma "janelinha" explicando o que é aquela abreviação -->
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p>
+</body>
+</html>

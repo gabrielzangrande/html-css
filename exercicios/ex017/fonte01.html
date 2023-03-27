@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em = Medida relativa ao tamanho atual da fonte (M) Maiúsculo
+            ex = Relativo a altura X de uma fonte (m) Minúsculo
+            rem = Relativo ao Root no body
+            vw = view width (largura do viewport)
+            vh = Altura da viewport
+            % = porcentagem da viewport
+
+            Iremos usar sempre PX para absolutas e EM para relativas;
+
+            16px geralmente = 1em
+            */
+             
+        }
+
+        h1 {
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+        }
+        /* Ao invés de fazer essas 4 linhas da código, posso utilizar um SHORTHAND, assim, escrevo tudo em uma linha só, sempre utilizando a seguinte ordem de classificação: 
+        style -> weight -> size -> family */
+        h2 {
+            font: italic bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad minus itaque quis ex, architecto nobis fugiat labore praesentium sit enim deleniti obcaecati ipsa inventore quibusdam repellendus cons Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit cum, reprehenderit sint sunt, nisi voluptates ullam, ipsum quibusdam assumenda tenetur minima dolores exercitationem! Perferendis explicabo magnam illum dignissimos reiciendis! equatur eaque quaerat!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut rem ab a provident odio saepe distinctio omnis libero fugiat, voluptatibus recusandae corrupti laboriosam, iure necessitatibus! Quidem itaque voluptatibus libero?</p>
+</body>
+</html>
