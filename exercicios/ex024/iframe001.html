@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site do 
+        <!-- Nesse caso, se o navegador do client não for compatível com o iframe, ele vai aparecer o q estiver escrito, nesse caso a tag <a>, mas se eu quisesse poderia apenas escrever: "seu navegador não é compatível" -->
+        <iframe src="https://cursoemvideo.com" frameborder="0" height="500px" scolling="yes">
+            <a href="https://www.cursoemvideo.com"></a>
+        </iframe>
+        
+        para aprender a programar</p>
+        <!-- Tamanho Padrão do iframe: 300x150px -->
+        <p>O repositório do Guanabara
+            
+            <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+            <p>Seu navegador não é compativel</p>
+            </iframe>
+            
+            também é legal</p>
+</body>
+</html>
