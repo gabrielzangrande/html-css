@@ -41,7 +41,7 @@ Grandes telas - TV: Acima de 1200px;
 
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width 992px) { 
+@media screen and (min-width: 768px) and (max-width: 992px) { 
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -54,7 +54,7 @@ Grandes telas - TV: Acima de 1200px;
 }
 
 /* DESKTOP */
-@media screen and (min-width 992px) and (max-width 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -68,7 +68,7 @@ Grandes telas - TV: Acima de 1200px;
 }
 
 /* GRANDES TELAS */
-@media screen and (min-width 1200px) {
+@media screen and (min-width: 1200px) {
     body {
     background-image: url(../imagens/back-tv.jpg);
     }
