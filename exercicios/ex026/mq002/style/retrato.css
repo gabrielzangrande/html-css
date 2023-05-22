@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Estilo de retrato (aparelho de pé) */
+
+body {
+    background-image: url(../imagens/girafa-portrait.jpeg);
+    background-position: center bottom;
+}

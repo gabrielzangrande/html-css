@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Estilo paisagem (aparelho deitado) */
+
+body {
+    background-image: url(../imagens/girafa-landscape.jpeg);
+    background-position: bottom left;
+}
