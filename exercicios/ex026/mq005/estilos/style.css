@@ -18,19 +18,21 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+    display: block;
 }
 
 #burguer {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(35, 35, 35);
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 #burguer:hover {
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     color: black;
 }
 
@@ -40,19 +42,21 @@ menu {
 
 menu > ul {
     list-style-type: none;
+    display: block;
 }
 
-menu > ul > li > a {
+.botao {
+    background-color: rgb(100, 100, 100);
+    color: white;
     display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(100, 100, 100);
-    color: white;
     border-top: 2px solid gray;
+    border-radius: 10px;
 }
 
-menu > ul > li > a:hover {
+.botao:hover {
     background-color: gray;
 }
 
